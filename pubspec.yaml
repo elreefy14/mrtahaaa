@@ -1,0 +1,250 @@
+name: bubbly
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 16.06.06+16
+
+environment:
+  sdk: ^3.5.4
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependency_overrides:
+  super_native_extensions:
+    git:
+      url: https://github.com/superlistapp/super_native_extensions.git
+      ref: refs/pull/525/head
+      path: super_native_extensions
+  irondash_engine_context:
+    git:
+      url: https://github.com/irondash/irondash.git
+      ref: refs/pull/66/head
+      path: engine_context/dart
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  ### 🔥 Firebase
+  firebase_core: ^4.2.0
+  firebase_auth: ^6.1.1
+  country_code_picker: ^3.4.1
+  cloud_firestore: ^6.0.3
+  firebase_messaging: ^16.0.3
+  google_mobile_ads: ^6.0.0
+  firebase_crashlytics: ^5.0.3
+
+  ### 📦 State Management & Storage
+  get: ^4.7.2
+  get_storage: ^2.1.1
+
+  ### 🎨 UI & Design
+  figma_squircle_updated: ^1.0.1
+  detectable_text_field: ^3.0.2
+  dotted_border: ^3.1.0
+  shimmer: ^3.0.0
+  google_fonts: ^6.3.2
+  expandable_page_view: ^1.0.17
+  super_context_menu: ^0.9.1
+  readmore: ^3.0.0
+  proste_indexed_stack: ^0.2.4
+  keyboard_avoider: ^0.2.0
+  flutter_staggered_grid_view: ^0.7.0
+  smooth_highlight: ^0.1.2
+  photo_view: ^0.15.0
+  dismissible_page: ^1.0.2
+
+
+  ### 📸 Media (Image, Video, Audio)
+  cached_network_image: ^3.4.1
+  audio_waveforms: ^1.3.0
+  just_audio: ^0.10.5
+  video_player: ^2.10.0
+  cached_video_player_plus: ^4.0.4
+  video_compress: ^3.1.4
+  flutter_image_compress: ^2.4.0
+  deepar_flutter_plus: ^0.2.0
+  flutter_native_video_trimmer: ^1.1.9
+
+  ### 🧭 Location & Maps
+  google_maps_flutter: ^2.13.1
+  geocoding: ^4.0.0
+  geolocator: ^14.0.2
+  camera: ^0.11.3
+
+  ### 📷 QR & Barcode
+  pretty_qr_code: ^3.5.0
+  qr_code_scanner_plus: ^2.0.14
+  google_mlkit_barcode_scanning: ^0.14.1
+
+  ### 📤 File Handling & Pickers
+  image_picker: ^1.2.0
+  flutter_cache_manager: ^3.4.1
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  gal: ^2.3.2
+  mime: ^2.0.0
+  csv: ^6.0.0
+
+
+  ### 🔗 Links & External Services
+  url_launcher: ^6.3.2
+  flutter_branch_sdk: ^8.10.0
+  webview_flutter_plus: ^0.4.19
+  http: ^1.5.0
+  share_plus: ^12.0.1
+  internet_connection_checker_plus: ^2.9.0
+  collection: ^1.19.1
+  html: ^0.15.6
+
+  ### 🔐 Login & Auth
+  google_sign_in: ^7.2.0
+
+  ### 🔔 Notifications
+  flutter_local_notifications: ^19.5.0
+
+  #  ### 💳 Purchases & Payments
+  #  purchases_flutter: ^8.9.0
+
+  ### 🧰 Utilities
+  intl: ^0.20.2
+  uuid: ^4.5.1
+  flutter_keyboard_visibility: ^6.0.0
+  visibility_detector: ^0.4.0+2
+  flutter_widget_from_html_core: ^0.17.0
+  wakelock_plus: ^1.3.2
+  permission_handler: ^11.4.0
+  zego_express_engine: ^3.22.1
+  rxdart: ^0.28.0
+  image: ^4.5.4
+
+  ### 🔌 Custom Plugins
+  retrytech_plugin:
+    git:
+      url: https://gitlab.com/jeelkhokhariya59/retrytech_plugin.git
+      ref: master
+  flutter_paytabs_bridge: ^2.7.0
+  easy_video_editor: ^0.1.2
+  restart_app: ^1.3.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^4.0.0
+  change_app_package_name: ^1.5.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/lang/
+    - assets/icons/
+    - assets/csv/
+    - assets/audios/
+    - android/app/src/main/res/mipmap-hdpi/
+    - ios/Runner/Assets.xcassets/AppIcon.appiconset/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Black
+      fonts:
+        - asset: assets/fonts/Outfit-Black.ttf
+          weight: 900
+    - family: Bold
+      fonts:
+        - asset: assets/fonts/Outfit-Bold.ttf
+          weight: 700
+    - family: ExtraBold
+      fonts:
+        - asset: assets/fonts/Outfit-ExtraBold.ttf
+          weight: 800
+    - family: ExtraLight
+      fonts:
+        - asset: assets/fonts/Outfit-ExtraLight.ttf
+          weight: 200
+    - family: Light
+      fonts:
+        - asset: assets/fonts/Outfit-Light.ttf
+          weight: 300
+    - family: Medium
+      fonts:
+        - asset: assets/fonts/Outfit-Medium.ttf
+          weight: 500
+    - family: Regular
+      fonts:
+        - asset: assets/fonts/Outfit-Regular.ttf
+          weight: 400
+    - family: SemiBold
+      fonts:
+        - asset: assets/fonts/Outfit-SemiBold.ttf
+          weight: 600
+    - family: Thin
+      fonts:
+        - asset: assets/fonts/Outfit-Thin.ttf
+          weight: 100
+    - family: Unbounded-Black
+      fonts:
+        - asset: assets/fonts/Unbounded-Black.ttf
+          weight: 900
+    - family: Unbounded-Bold
+      fonts:
+        - asset: assets/fonts/Unbounded-Bold.ttf
+          weight: 700
+    - family: Unbounded-ExtraBold
+      fonts:
+        - asset: assets/fonts/Unbounded-ExtraBold.ttf
+          weight: 800
+    - family: Unbounded-ExtraLight
+      fonts:
+        - asset: assets/fonts/Unbounded-ExtraLight.ttf
+          weight: 200
+    - family: Unbounded-Light
+      fonts:
+        - asset: assets/fonts/Unbounded-Light.ttf
+          weight: 300
+    - family: Unbounded-Medium
+      fonts:
+        - asset: assets/fonts/Unbounded-Medium.ttf
+          weight: 500
+    - family: Unbounded-Regular
+      fonts:
+        - asset: assets/fonts/Unbounded-Regular.ttf
+          weight: 400
+    - family: Unbounded-SemiBold
+      fonts:
+        - asset: assets/fonts/Unbounded-SemiBold.ttf
+          weight: 600

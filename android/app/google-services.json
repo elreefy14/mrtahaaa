@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "527556314299",
+    "firebase_url": "https://suplleex-sherif-default-rtdb.firebaseio.com",
+    "project_id": "suplleex-sherif",
+    "storage_bucket": "suplleex-sherif.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527556314299:android:cf019b6043122566b5559e",
+        "android_client_info": {
+          "package_name": "com.all.safe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527556314299-sdf2f7cni3n9f7rupkl9qh59da1bkav3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnFTTGL0PnDGIuvnX-tyu2zkZwRYfXvJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527556314299-sdf2f7cni3n9f7rupkl9qh59da1bkav3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "527556314299-u694qo0bkc6b6ae5qk3j7d42u5smm9fn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sherifahmedallsafe.suplleex"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527556314299:android:d298a5f94eb2334cb5559e",
+        "android_client_info": {
+          "package_name": "com.sherifahmed.allsafesuplleex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527556314299-7c0voe4a8g1rp766qt1oc8kkl9scm4h0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sherifahmed.allsafesuplleex",
+            "certificate_hash": "d02addd3ed753fb8f4047024d0abf6835f64fd61"
+          }
+        },
+        {
+          "client_id": "527556314299-tjollvr81ru84p7jk2fomp5k64isbojo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sherifahmed.allsafesuplleex",
+            "certificate_hash": "f85c3bf5234ab24802d1a2930c04b5139a550d9d"
+          }
+        },
+        {
+          "client_id": "527556314299-sdf2f7cni3n9f7rupkl9qh59da1bkav3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnFTTGL0PnDGIuvnX-tyu2zkZwRYfXvJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527556314299-sdf2f7cni3n9f7rupkl9qh59da1bkav3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "527556314299-u694qo0bkc6b6ae5qk3j7d42u5smm9fn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sherifahmedallsafe.suplleex"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

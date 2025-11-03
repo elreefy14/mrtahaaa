@@ -1,0 +1,14 @@
+{
+  "en": {
+    "profile": "Profile",
+    "home": "Home",
+    "search": "Search",
+    "content": "Content"
+  },
+  "ar": {
+    "profile": "الملف الشخصي",
+    "home": "الرئيسية",
+    "search": "ابحث هنا",
+    "content": "المحتوى"
+  }
+}
